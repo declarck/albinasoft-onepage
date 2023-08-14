@@ -896,3 +896,23 @@ select:not([multiple]) {
 		margin-left: 0;
 	}
 }
+
+.card {
+	margin: 5px;
+	border-radius: 5px;
+	border: transparent;
+	background-color: #F2F2F2;
+	background-size: cover;
+}
+
+.card-body {
+	margin: 10px;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 0px 1px 4px rgba(0, 0, 0, 1);
+	font-size: 1.2rem;
+}
+
+.stats {
+	margin-bottom: 20px;
+}
