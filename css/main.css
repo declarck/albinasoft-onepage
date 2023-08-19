@@ -37,7 +37,8 @@ a {
 }
 
 a:hover {
-	color: #343a40;
+	/* color: #343a40; */
+	color: #bb141a;
 	text-decoration: none;
 }
 
@@ -54,7 +55,8 @@ a:hover {
 }
 
 .btn-primary:hover {
-	background: #068ccf;
+	/* background: #068ccf; */
+	background: #bb141a;
 }
 
 .btn-secondary {
@@ -65,7 +67,8 @@ a:hover {
 }
 
 .btn-secondary:hover {
-	background: #068ccf;
+	/* background: #068ccf; */
+	background: #bb141a;
 }
 
 .tm-text-primary {
@@ -285,7 +288,9 @@ hr {
 }
 
 .tm-post-link:hover {
-	color: #068ccf;
+	/* color: #068ccf; */
+	color: #bb141a;
+	
 }
 
 /* Gallery section */
@@ -917,3 +922,24 @@ select:not([multiple]) {
 	margin-bottom: 20px;
 }
 
+.float{
+	z-index: 1000;
+	position:fixed;
+	width:60px;
+	height:42px;
+	top:40px;
+	right:0px;
+	background-color:#343a40;
+	color:#FFF;
+	/* border-radius:5px; */
+	text-align:center;
+	/* box-shadow: 2px 2px 3px #999; */
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+	padding: 10px 5px;
+	
+}
+.float:hover{
+	color:#FFF;
+	background: #bb141a;
+}
